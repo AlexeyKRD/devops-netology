@@ -17,3 +17,5 @@
 >+ `*tfplan*` Исключает файлы включающие в название tfplan
 >+ `.terraformrc` Исключает файл .terraformrc
 >+ `terraform.rc` Исключает файл terraform.rc
+
+ *Добавлено в pyCharm* 
