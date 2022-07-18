@@ -2,3 +2,4 @@ will_be_moved
 Добавлено в pyCharm
 текст перед merge
 edit 4
+edit 5
