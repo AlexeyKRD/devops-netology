@@ -9,3 +9,4 @@
 + 2.4 [Инструменты Git](https://github.com/AlexeyKRD/devops-netology/tree/main/02-git-04-tools) 
 ## Блок 3. Основы системного администрировани
 + 3.1 [Работа в терминале (лекция 1)](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-01-terminal)
++ 3.2 [Работа в терминале (лекция 2)](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-02-terminal)
