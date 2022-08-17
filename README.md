@@ -10,3 +10,5 @@
 ## Блок 3. Основы системного администрировани
 + 3.1 [Работа в терминале (лекция 1)](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-01-terminal)
 + 3.2 [Работа в терминале (лекция 2)](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-02-terminal)
++ 3.3 [Операционные системы (лекция 1)](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-03-os)
++ 
