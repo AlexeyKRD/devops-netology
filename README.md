@@ -14,3 +14,4 @@
 + 3.4 [Операционные системы (лекция 1)](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-04-os)
 + 3.5 [Файловые системы](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-05-fs)
 + 3.6 [Компьютерные сети (лекция 1)](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-06-net)
++ 3.7 [Компьютерные сети (лекция 2)](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-07-net)
