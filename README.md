@@ -16,3 +16,4 @@
 + 3.6 [Компьютерные сети (лекция 1)](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-06-net)
 + 3.7 [Компьютерные сети (лекция 2)](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-07-net)
 + 3.8 [Компьютерные сети (лекция 3)](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-08-net)
++ 3.9 [Элементы безопасности информационных систем](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-09-security)
