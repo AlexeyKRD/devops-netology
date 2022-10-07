@@ -17,3 +17,5 @@
 + 3.7 [Компьютерные сети (лекция 2)](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-07-net)
 + 3.8 [Компьютерные сети (лекция 3)](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-08-net)
 + 3.9 [Элементы безопасности информационных систем](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-09-security)
+## Блок 4. Скриптовые языки и языки разметки: Python, Bash, YAML, JSON
++ 4.1 [Командная оболочка Bash: практические навыки](https://github.com/AlexeyKRD/devops-netology/tree/main/04-script-01-bash)
