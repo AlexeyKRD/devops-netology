@@ -19,3 +19,4 @@
 + 3.9 [Элементы безопасности информационных систем](https://github.com/AlexeyKRD/devops-netology/tree/main/03-sysadmin-09-security)
 ## Блок 4. Скриптовые языки и языки разметки: Python, Bash, YAML, JSON
 + 4.1 [Командная оболочка Bash: практические навыки](https://github.com/AlexeyKRD/devops-netology/tree/main/04-script-01-bash)
++ 4.2 [Использование Python для решения типовых DevOps задач](https://github.com/AlexeyKRD/devops-netology/tree/main/04-script-02-py)
