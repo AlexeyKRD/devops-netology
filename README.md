@@ -20,3 +20,4 @@
 ## Блок 4. Скриптовые языки и языки разметки: Python, Bash, YAML, JSON
 + 4.1 [Командная оболочка Bash: практические навыки](https://github.com/AlexeyKRD/devops-netology/tree/main/04-script-01-bash)
 + 4.2 [Использование Python для решения типовых DevOps задач](https://github.com/AlexeyKRD/devops-netology/tree/main/04-script-02-py)
++ 4.3 [Языки разметки JSON и YAML](https://github.com/AlexeyKRD/devops-netology/tree/main/04-script-03-yaml)
