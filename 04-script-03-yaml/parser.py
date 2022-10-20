@@ -2,7 +2,7 @@ import json
 import yaml
 import os
 
-file = 'bad.yaml'
+file = 'bad.json'
 file_name = os.path.splitext(file)[0]
 # print(file_name)
 is_json = True
