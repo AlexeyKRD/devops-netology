@@ -23,7 +23,7 @@
 + 4.3 [Языки разметки JSON и YAML](https://github.com/AlexeyKRD/devops-netology/tree/main/04-script-03-yaml)
 ## Блок 5. Виртуализация
 + 5.1. [Введение в виртуализацию. Типы и функции гипервизоров. Обзор рынка вендоров и областей применения](https://github.com/AlexeyKRD/devops-netology/tree/main/05-virt-01-basics)  
-+ 5.2. Применение принципов IaaC в работе с виртуальными машинами  
-+ 5.3. Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера  
++ 5.2. [Применение принципов IaaC в работе с виртуальными машинами](https://github.com/AlexeyKRD/devops-netology/tree/main/05-virt-02-iaac)  
++ 5.3. [Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера](https://github.com/AlexeyKRD/devops-netology/tree/main/05-virt-03-docker)  
 + 5.4. Оркестрация группой Docker контейнеров на примере Docker Compose.  
 + 5.5. Оркестрация кластером Docker контейнеров на примере Docker Swarm.  
