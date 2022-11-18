@@ -27,3 +27,10 @@
 + 5.3. [Введение. Экосистема. Архитектура. Жизненный цикл Docker контейнера](https://github.com/AlexeyKRD/devops-netology/tree/main/05-virt-03-docker)  
 + 5.4. [Оркестрация группой Docker контейнеров на примере Docker Compose](https://github.com/AlexeyKRD/devops-netology/tree/main/05-virt-04-docker-compose)
 + 5.5. [Оркестрация кластером Docker контейнеров на примере Docker Swarm](https://github.com/AlexeyKRD/devops-netology/tree/main/05-virt-05-docker-swarm)  
+## Блок 6. Администрирование баз данных
++ 6.1. [Типы и структура СУБД](https://github.com/AlexeyKRD/devops-netology/tree/main/06-db-01-basics)
++ 6.2. [SQL](06-db-02-sql)
++ 6.3. [MySQL](06-db-03-mysql)
++ 6.4. [PostgreSQL](06-db-04-postgresql)
++ 6.5. [Elasticsearch](06-db-05-elasticsearch)
++ 6.6. [Troubleshooting](06-db-06-troobleshooting)
