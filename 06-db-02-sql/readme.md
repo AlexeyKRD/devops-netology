@@ -53,8 +53,7 @@
 > ```code
 > test_db=# CREATE TABLE orders (id SERIAL PRIMARY KEY, name TEXT, price INT);
 > CREATE TABLE
-> test_db=# CREATE TABLE clients (id SERIAL PRIMARY KEY, lname TEXT, country TEXT, ord INT, FOREIGN KEY (ord) REFER
-ENCES orders (id));
+> test_db=# CREATE TABLE clients (id SERIAL PRIMARY KEY, lname TEXT, country TEXT, ord INT, FOREIGN KEY (ord) REFERENCES orders (id));
 > CREATE TABLE
 > ```
 
@@ -329,9 +328,8 @@ ENCES orders (id));
 > создаем пустую базу `docker exec -i my_postgres psql -U sa -c 'CREATE DATABASE test_db2'`  
 > восстанавливаем БД `docker exec -i my_postgres psql -U sa -d test_db2 < ./backup/test_db_dump.sql`  
 >
-> другой вариант (не нужно создавать БД): 
+> другой вариант (не нужно создавать БД):  
 > создаем бекап `docker exec -i my_postgres2 pg_dumpall -U sa -f ./backup/back_dump_all.sql`  
 > восстанавливаем БД `docker exec -i my_postgres2 psql -U postgres -f ./backup/back_dump_all.sql`  
 >
-> еще вариант с ипользованием `pg_basebackup` ):  
-> 
+> еще вариант с ипользованием `pg_basebackup` ): 
