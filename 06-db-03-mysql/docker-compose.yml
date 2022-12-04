@@ -1,0 +1,16 @@
+version: '3.1'
+
+services:
+  mysql_db:
+    image: mysql:8
+    container_name: my_sql63
+    restart: always
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: sa
+      MYSQL_DATABASE: test_db63
+    volumes:
+      - ./data:/var/lib/mysql/
+      - ./backup:/backup
+      - ./etc/my.cnf:/etc/my.cnf
