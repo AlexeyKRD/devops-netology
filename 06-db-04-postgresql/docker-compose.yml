@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  postgres:
+    image: postgres:13-alpine
+    container_name: my_postgres 
+    environment:
+      POSTGRES_USER: "sa"
+      POSTGRES_PASSWORD: "sa"
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+    volumes:
+      - ./data:/var/lib/postgresql/data
+      - ./backup:/var/lib/postgresql/backup
