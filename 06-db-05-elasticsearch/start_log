@@ -171,3 +171,7 @@ WARNING: System::setSecurityManager will be removed in a future release
 [2022-12-08T14:25:26,708][INFO ][o.o.i.i.ManagedIndexCoordinator] [netology_node-1] Cancel background move metadata process.
 [2022-12-08T14:25:26,713][INFO ][o.o.i.i.ManagedIndexCoordinator] [netology_node-1] Performing move cluster state metadata.
 [2022-12-08T14:25:26,716][INFO ][o.o.i.i.MetadataService  ] [netology_node-1] Move metadata has finished.
+[2022-12-08T14:28:26,292][INFO ][o.o.j.s.JobSweeper       ] [netology_node-1] Running full sweep
+[2022-12-08T14:28:26,727][INFO ][o.o.i.i.PluginVersionSweepCoordinator] [netology_node-1] Canceling sweep ism plugin version job
+
+[2022-12-08T14:33:26,301][INFO ][o.o.j.s.JobSweeper       ] [netology_node-1] Running full sweep
