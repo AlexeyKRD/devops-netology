@@ -1,17 +1,20 @@
-yum install -y wget
-yum install -y java-11-openjdk-devel 
+FROM centos:7
 
-wget https://artifacts.opensearch.org/releases/bundle/opensearch/2.4.0/opensearch-2.4.0-linux-x64.tar.gz
-tar -xf opensearch-2.4.0-linux-x64.tar.gz
+RUN yum install -y wget
+RUN groupadd opensearch && useradd opensearch -g opensearch
 
-groupadd opensearch && useradd opensearch -g opensearch
+RUN wget https://artifacts.opensearch.org/releases/bundle/opensearch/2.4.0/opensearch-2.4.0-linux-x64.tar.gz
+RUN tar -xf opensearch-2.4.0-linux-x64.tar.gz
+RUN rm opensearch-2.4.0-linux-x64.tar.gz
 
-mkdir /opt/opensearch && mv ./opensearch-2.4.0/* /opt/opensearch && rmdir ./opensearch-2.4.0
+COPY opensearch.yml /opensearch-2.4.0/config/
 
-chown -R opensearch:opensearch /opt/opensearch
+RUN mkdir /var/lib/opensearch /var/lib/opensearch/data /var/lib/opensearch/log /opensearch-2.4.0/snapshots
+RUN chown -R opensearch:opensearch /opensearch-2.4.0
+RUN chown -R opensearch:opensearch /var/lib/opensearch
 
-su - opensearch
+USER opensearch
 
-cp opensearch.yml /opt/opensearch/config/
+CMD /opensearch-2.4.0/bin/opensearch
 
-/opt/opensearch/bin/opensearch
+EXPOSE 9200

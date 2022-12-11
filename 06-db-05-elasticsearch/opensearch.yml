@@ -20,7 +20,7 @@ cluster.name: netology
 #
 # Use a descriptive name for the node:
 #
-node.name: netology_node-1
+node.name: netology_test
 #
 # Add custom attributes to the node:
 #
@@ -30,11 +30,12 @@ node.name: netology_node-1
 #
 # Path to directory where to store the data (separate multiple locations by comma):
 #
-path.data: /opt/opensearch/data
+path.data: /var/lib/opensearch/data
 #
 # Path to log files:
 #
-path.logs: /opt/opensearch/logs
+path.logs: /var/lib/opensearch/logs
+path.repo: /opensearch-2.4.0/snapshots
 #
 # ----------------------------------- Memory -----------------------------------
 #
@@ -65,7 +66,7 @@ http.port: 9200
 # Pass an initial list of hosts to perform discovery when this node is started:
 # The default list of hosts is ["127.0.0.1", "[::1]"]
 #
-discovery.seed_hosts: ["127.0.0.1", "::1"]
+discovery.seed_hosts: ["127.0.0.1"]
 discovery.type: single-node
 #
 # Bootstrap the cluster using an initial set of cluster-manager-eligible nodes:
@@ -88,7 +89,7 @@ discovery.type: single-node
 #
 #action.destructive_requires_name: true
 
-plugins.security.disabled: false
+plugins.security.disabled: true
 
 ######## Start OpenSearch Security Demo Configuration ########
 # WARNING: revise all the lines below before you go into production
