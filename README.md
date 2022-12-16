@@ -34,3 +34,16 @@
 + 6.4. [PostgreSQL](06-db-04-postgresql)
 + 6.5. [Elasticsearch](06-db-05-elasticsearch)
 + 6.6. [Troubleshooting](06-db-06-troobleshooting)
+
+## Блок 7. Облачная инфраструктура. Terraform
+
++ 7.1. [Конфигурация как код](07-terraform-01-intro)
++ 7.2. [Облачные провайдеры и синтаксис Терраформ](07-terraform-02-syntax)
++ 7.3. [Основы и принцип работы Терраформ](07-terraform-03-basic)
++ 7.4. [Средства командной работы над инфраструктурой](07-terraform-04-teamwork)
++ 7.5. [Введение в Golang](07-terraform-05-golang)
++ 7.6. [Написание собственных провайдеров для Terraform](07-terraform-06-providers)
+
+## Дополнительные материалы
+
+1. [Блок 6. Администрирование баз данных](https://github.com/netology-code/virt-homeworks/blob/virt-11/additional/README.md)
