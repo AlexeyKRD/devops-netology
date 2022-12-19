@@ -14,7 +14,7 @@
 > у нас уже были игрища с Яндексом вот ДЗ по нему [05.04 Docker Compose](https://github.com/AlexeyKRD/devops-netology/tree/main/05-virt-04-docker-compose)  
 > добавим в переменные окружения:  
 > export TF_VAR_yc_token=$(yc iam create-token)  
-> также можно было добавит id облака и каталога, но я указал их в `variables.tf`
+> также можно было добавит id облака и каталога, но я указал их в `variables.tf`  
 > export TF_VAR_yc_cloud_id=$(yc config get cloud-id)  
 > export TF_VAR_yc_folder_id=$(yc config get folder-id)  
 
